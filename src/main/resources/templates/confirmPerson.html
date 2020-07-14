@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title> title </title>
+</head>
+    <body>
+    <p th:inline="text">
+        First name: [[${person.firstName}]] <br/>
+        Last name: [[${person.lastName}]] <br/>
+        Email address: [[${person.email}]] <br/>
+        Phone number: [[${person.phoneNumber}]] <br/>
+        Address: [[${person.address}]] <br/>
+        City: [[${person.city}]] <br/>
+        State: [[${person.state}]] <br/>
+        Zipcode: [[${person.zipcode}]] <br/>
+    </p>
+    </body>
+    </html> 
